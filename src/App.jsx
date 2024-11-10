@@ -1,6 +1,6 @@
 import { useState } from 'react'
 
-import { BrowserRouter } from 'react-router-dom'
+import { HashRouter } from 'react-router-dom'
 import { RouterConfig } from './navigation/RouterConfig.jsx'
 // MUI Theme
 import { ThemeProvider } from '@material-ui/core'
@@ -18,9 +18,9 @@ function App() {
     <>
       <div>
           <ThemeProvider theme={darkState ? dark() : light()}>
-              <BrowserRouter>
+              <HashRouter>
                 <RouterConfig />
-              </BrowserRouter>
+              </HashRouter>
           </ThemeProvider>
       </div>
     </>
