@@ -1,0 +1,1 @@
+import{j as o,L as e}from"./index-C4bs9fEv.js";const s="/blood-glucose-control-live-demo/assets/glucose_logo-BVO5A0Qb.png",t=()=>o.jsx(e,{children:o.jsx("div",{className:"home-container",children:o.jsx("img",{src:s,alt:"Description of image",className:"home-image"})})});export{t as default};
