@@ -1,0 +1,1 @@
+import{j as s,L as e}from"./index-D4wXKAPs.js";const o="/YOUR_REPOSITORY_NAME/assets/glucose_logo-BVO5A0Qb.png",t=()=>s.jsx(e,{children:s.jsx("div",{className:"home-container",children:s.jsx("img",{src:o,alt:"Description of image",className:"home-image"})})});export{t as default};
