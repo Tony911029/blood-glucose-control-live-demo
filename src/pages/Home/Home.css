@@ -1,0 +1,13 @@
+.home-container {
+    display: flex;
+    justify-content: center;  /* centers horizontally */
+    align-items: center;      /* centers vertically */
+    padding: 20px;
+}
+
+.home-image {
+    max-width: 100%;    /* makes image responsive */
+    height: auto;
+    border-radius: 8px; /* optional: adds rounded corners */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* optional: adds subtle shadow */
+}
